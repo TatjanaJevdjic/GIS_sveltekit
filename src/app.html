@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<!-- Primary Meta Tags -->
+		<title>GIS for Water - Visualise, Analise and Share Water & Sanitation data</title>
+		<meta
+			name="title"
+			content="GIS for Water - Visualise, Analise and Share Water & Sanitation data"
+		/>
+		<meta
+			name="description"
+			content="GIS for Water is a modern web frontend part of supporting operation and maintenance of water utilities. It provides users with spatial data, and visualization and analytical tools as a one stop shop."
+		/>
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://demo.water-gis.com/" />
+		<meta
+			property="og:title"
+			content="GIS for Water - Visualise, Analise and Share Water & Sanitation data"
+		/>
+		<meta
+			property="og:description"
+			content="GIS for Water is a modern web frontend part of supporting operation and maintenance of water utilities. It provides users with spatial data, and visualization and analytical tools as a one stop shop."
+		/>
+		<meta property="og:image" content="%sveltekit.assets%/assets/preview-1200x630.png" />
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://demo.water-gis.com/" />
+		<meta
+			property="twitter:title"
+			content="GIS for Water - Visualise, Analise and Share Water & Sanitation data"
+		/>
+		<meta
+			property="twitter:description"
+			content="GIS for Water is a modern web frontend part of supporting operation and maintenance of water utilities. It provides users with spatial data, and visualization and analytical tools as a one stop shop."
+		/>
+		<meta property="twitter:image" content="%sveltekit.assets%/assets/preview-1200x630.png" />
+
+		<link rel="shortcut icon" href="%sveltekit.assets%/favicon.png" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<link
+			rel="manifest"
+			crossorigin="use-credentials"
+			href="%sveltekit.assets%/manifest.webmanifest"
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		%sveltekit.head%
+	</head>
+	<style type="text/css">
+		html,
+		body {
+			margin: 0;
+			padding: 0;
+			min-height: 100vh;
+			/* mobile viewport bug fix */
+			min-height: -webkit-fill-available;
+		}
+
+		html {
+			overflow-y: hidden !important;
+			height: -webkit-fill-available;
+		}
+	</style>
+	<body>
+		<div>%sveltekit.body%</div>
+	</body>
+</html>
